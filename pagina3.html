@@ -4,47 +4,140 @@
 
     <head>
         <link rel="stylesheet" href="style.css">
-        <title>Dit is een eenvoudige website</title>
+        <title>Justin-wakeboard.NL</title>
+        <meta charset="utf-8" />
     </head>
     
     <body>
         <main>
             <header>
-                <h1>Informatie overal!</h1>
-                <br>
+                <h1 id="hoofdtitel" class="belangrijk"></h1>
             </header>
             
             <nav>
                 <ul>
-                    <li><a href="index.html">nummer1</a></li>
-                    <li><a href="pagina2.html">nummer2</a></li>
-                    <li><a class="active" href="pagina3.html">nummer3</a></li>
-                    <li><a href="pagina4.html">nummer4</a></li>
-                    <li><a href="pagina5.html">nummer5</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pagina2.html">Wat is wakeboarden</a></li>
+                    <li><a class="active" href="pagina3.html">Over mij</a></li>
+                    <li><a href="pagina4.html">Hoe ziet de les eruit / prijzen</a></li>
+                    <li><a href="pagina5.html">Reserveren</a></li>
                 </ul>
             </nav>
             
+             <div class="wiebenik"> 
+               <h1>Wie ben ik?</h1>
+             </div>
+           
+
+
+         <div class="slideshow-container">
+
+              <!-- plaatjes -->
+             <div class="mySlides fade">
+                 <div class="numbertext">1 / 3</div>
+                 <img class="slidefoto" src="afbeeldingen/skatepark.JPG" >
+             </div>
+
+ 
+             <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img class="slidefoto" src="afbeeldingen/lachen.JPG" >
+             </div>
+
+             <div class="mySlides fade">
+                 <div class="numbertext">3 / 3</div>
+                 <img class="slidefoto" src="afbeeldingen/perfect.JPG" >
+             </div>
+
+
+              <!-- vorige en volgende knopjes -->
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+         </div>
+<br>
+
+             <!-- de puntjes -->
+           <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+           </div>
+
+
             
-            <article>
-                <h1 class=pagina1titel>wie ben ik?</h1>
-                <h3 class=pagina1ondertitel> (eventueel tekst) </h3> 
-                <p>Mijn naam is Justin en ik ben een wakeboarder. <br>
-                ik doe het nu al zo'n drie jaar en wat ik altijd al leuk vond was om mensen te helpen, of het nou de eerste stapjes waren of de vetste tricks.
-                toen ben ik op het idee gekomen om het wat groter aan te pakken, een eigen bedrijf.
-                Na alles uitgedacht en besproken te hebben ben ik naar de KVK gegaan om me daar te registreren.</p>
-                <p> Ik ben in de zomer van 2019 begonnen met les geven...</p>
-            </article>
-        
-            <footer>
-                <hr/>
-                <br>
-                <p>info@emmauscollege.nl</p>
-                <p class="smalltext">copyright A.P. Cammeraat 2016</p>
-                <br>
-            </footer>
+             <div class="transbox">
+                <article class="textvak"> 
+                    <h3 class=pagina1ondertitel> Mijn naam is Justin Grootenboer. </h3> 
+                    <p>Ik ben 4 jaar geleden begonnen met wakeboarden en wil sinds dien niks anders meer. Ik had meteen een abbonement genomen en was bijna dagelijks op het water te vinden. Ik heb op veel mooie banen mogen wakeboarden waaronder in Turkije en in Duitsland.  <br>
+                    <p> Als ik zelf niet aan het wakeboarden was vond ik het geweldig om anderen te helpen. Dat kon iemand zijn die voor de eerste keer ging waterskiën maar ook iemand die een backflip over de schans aan het oefenen was. Het is gewoon het beste gevoel als je een nieuwe trick landt, dus hoe leuk is het als je daaraan bij kan dragen.</p>
+                    <p> Vorige zomer kwam ik ineens op het idee om les te gaan geven. Ik heb toestemming gevraagd aan project7cablepark in nesselande, om daar les te geven, en die kreeg ik. Ik ben daarna naar de Kamer van Koophandel gegaan en heb me daar ingeschreven als ZZP'er. Ik heb deze zomer een stuk meer mensen les mogen geven dan ik van te voren had gedacht, erg geslaagd dus.
+                </article>
+                 <div class="olivier">
+                   <a href="https://www.instagram.com/justin_wakeboard/?hl=nl" ><img class="insta" src="afbeeldingen/insta.png"></a>
+                </div>
+            </div>
+
+
+            <div class="youtube">
+            <p><a href="https://youtu.be/4Jt2rYM7Krw">Klik hier om mij in actie te zien!!</a></p>
+            </div>
+
+
+            <div class="footer">
+                <div class="footer-content">
+
+                    <div class="footer-section over mij">
+                        <h1> contact</h1>
+                        <p> Om contact met mij op te nemen kunt u mij: mailen, bellen of een dm sturen.</p>
+                    
+                        <div class="contact">
+                             <span><i class="fas fa-envelope"></i> &nbsp; justinjay010@hotmail.com</span>
+                             <span><i class="fas fa-phone"></i> &nbsp; 06-44444-112</span>
+                             <span><i class="fas fa-instagram"></i> &nbsp; @justin_wakeboard</span>
+                        </div> 
+                    </div>
+                    <div class="socials">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div> 
+                </div>
+
+                <div class="footer-section links"></div>
+                <div class="footer-section contact"></div>
+                <div class="footer-bottom">
+                    &copy; Justin-wakeboard.nl | designed by Justin Grootenboer
+                </div>
+            </div>
+            
         
         </main>
-    
-    </body>
+        <script>
+var slideIndex = 1;
+showSlides(slideIndex);
 
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+ </body>
 </html>
